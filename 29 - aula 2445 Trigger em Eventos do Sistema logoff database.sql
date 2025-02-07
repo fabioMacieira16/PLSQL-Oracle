@@ -7,3 +7,6 @@ END LOGOFF_LOG;
 
 -- Desativando uma trigger
 -- ALTER TRIGGER Desconectou DISABLE
+
+SELECT TRIGGER_NAME
+FROM USER_TRIGGERS;
